@@ -9,6 +9,7 @@ public class Greeting {
 
     public Greeting(String name){
         this.name = name;
+        this.timeOfDay = "Morning";
     }
 
     public String getName() {
